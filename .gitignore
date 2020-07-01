@@ -16,8 +16,10 @@ build/*
 *.sdf
 
 #build folders
-bin
-build
+**/Build
+**/Binaries
+**/bin
+**/build
 
 # Compiled Dynamic libraries
 *.so
