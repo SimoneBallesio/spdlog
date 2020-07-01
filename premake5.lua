@@ -2,8 +2,8 @@ project "spdlog"
 	kind "StaticLib"
 	language "C++"
 
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("build/" .. outputdir .. "/%{prj.name}")
+	targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
+	objdir ("Build/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
