@@ -7,19 +7,19 @@ project "spdlog"
 
 	files
 	{
-    "include/**.h",
-    "src/**.cpp"
-  }
+		"include/**.h",
+		"src/**.cpp"
+	}
 
-  defines
-  {
-    "SPDLOG_COMPILED_LIB"
-  }
+	defines
+	{
+		"SPDLOG_COMPILED_LIB"
+	}
 
-  includedirs
-  {
-    "include"
-  }
+	includedirs
+	{
+		"include"
+	}
   
 	filter "system:windows"
 		systemversion "latest"
