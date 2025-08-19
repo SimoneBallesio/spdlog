@@ -1,4 +1,5 @@
 project "spdlog"
+	architecture "x64"
 	kind "StaticLib"
 	language "C++"
 
